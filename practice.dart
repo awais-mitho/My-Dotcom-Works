@@ -1,6 +1,15 @@
 import "dart:io";
 
 void main(){
+  int num1 = 10;
+  int? num2 = 20;
+
+  int sum = num1 + num2!;
+  print("Sum of num1 and num2 is: $sum");
+
+
+
+
   // int? num; ye null ho sakta hai
   // int? num;
   // print(num);
@@ -13,11 +22,11 @@ void main(){
 
 
 
-  String? name;
-  String? address;
+  // String? name;
+  // String? address;
 
-  String studentName = name!;
-  String? studentAddress = address;
+  // String studentName = name!;
+  // String? studentAddress = address;
 
 
 
