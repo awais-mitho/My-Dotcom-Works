@@ -19,13 +19,13 @@ void main() {
     billAmount = unitsConsumed * 30;
   } else if (unitsConsumed >= 200  && unitsConsumed <= 800) {
     billAmount = unitsConsumed * 70;
-    tax = 500; 
+    tax += 500; 
   } else if (unitsConsumed >= 800 && unitsConsumed <= 1500) {
     billAmount = unitsConsumed * 100;
-    tax = 500; 
+    tax += 500; 
   } else {
     billAmount = unitsConsumed * 150;
-    tax = 500; 
+    tax += 500; 
   }
 
   double totalBill = billAmount + tax;
